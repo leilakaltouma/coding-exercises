@@ -1,14 +1,5 @@
-/*Your task is to write a function which returns the sum of following series upto nth term(parameter).
-You need to round the answer to 2 decimal places and return it as String.
-
-If the given value is 0 then it should return 0.00
-
-You will only be given Natural Numbers as arguments.*/
-
-function SeriesSum(n){
-    let sum = 0
-    for(let i = 0; i < n; i++) {
-      sum += 1/(3 * i + 1)
-    }
-    return sum.toFixed(2)
-  } 
+//Your task is to split the chocolate bar of given dimension n x m into small squares. Each square is of size 1x1 and unbreakable. Implement a function that will return minimum number of breaks needed.
+function breakChocolate(n,m) {
+  if(n*m <= 0) {return 0}
+  return n * m - 1 
+}
