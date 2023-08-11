@@ -30,7 +30,7 @@ IP_ADDRESS_REQUIRED - no ip address was supplied
 
 
 function greet(language) {
-	let greet = {
+	var greet = {
     english: 'Welcome',
 czech: 'Vitejte',
 danish: 'Velkomst',
